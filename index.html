@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="theme-color" content="#161412">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <title>Slemani Map</title>
+  <link rel="stylesheet" href="css/app.css?v=v4">
+</head>
+<body>
+  <div id="app">
+    <div id="stage" aria-live="polite">
+      <div id="viewer-a" class="osd-pane is-front"><img class="pane-thumb" alt="" aria-hidden="true"></div>
+      <div id="viewer-b" class="osd-pane"><img class="pane-thumb" alt="" aria-hidden="true"></div>
+    </div>
+
+    <button type="button" id="btn-prev" class="nav-arrow prev" aria-label="Previous page">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 4.5 8 12l7.5 7.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+    <button type="button" id="btn-next" class="nav-arrow next" aria-label="Next page">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8.5 4.5 16 12l-7.5 7.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+
+    <div id="toolbar">
+      <button type="button" id="btn-home" aria-label="Fit page">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10.5 12 4l8 6.5V20a1 1 0 0 1-1 1h-5v-6H10v6H5a1 1 0 0 1-1-1z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>
+      </button>
+      <button type="button" id="btn-fullscreen" aria-label="Full screen">
+        <svg class="icon-enter" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 4H4v4M16 4h4v4M8 20H4v-4M16 20h4v-4" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <svg class="icon-exit" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 9 4 4m5 0H4v5M15 9l5-5m-5 0h5v5M9 15l-5 5m5 0H4v-5M15 15l5 5m-5 0h5v-5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+    </div>
+
+    <div id="rail">
+      <div id="thumbs" class="thumbs" role="tablist" aria-label="Pages"></div>
+      <div id="page-indicator" class="page-indicator"></div>
+    </div>
+
+    <div id="card-backdrop" hidden></div>
+    <aside id="hotspot-card" class="card" hidden>
+      <button type="button" class="card-close" aria-label="Close">&times;</button>
+      <img class="card-image" alt="">
+      <h2 class="card-title"></h2>
+      <p class="card-text"></p>
+    </aside>
+  </div>
+
+  <script src="vendor/openseadragon/openseadragon.min.js?v=v4"></script>
+  <script src="pages.js?v=v4"></script>
+  <script src="js/app.js?v=v4"></script>
+</body>
+</html>

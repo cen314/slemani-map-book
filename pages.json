@@ -1,0 +1,168 @@
+{
+  "title": "Slemani Tourism",
+  "idleSeconds": 90,
+  "generated": "2026-11-15T11:58:14",
+  "pages": [
+    {
+      "id": "page-01",
+      "title": "Page 01",
+      "source": "SLT.01.pdf",
+      "dzi": "tiles/v3/page-01.dzi",
+      "thumb": "tiles/v3/thumbs/page-01.jpg",
+      "width": 1772,
+      "height": 2658,
+      "tileSource": {
+        "Image": {
+          "xmlns": "http://schemas.microsoft.com/deepzoom/2008",
+          "Url": "tiles/v3/page-01_files/",
+          "Format": "jpg",
+          "Overlap": "1",
+          "TileSize": "254",
+          "Size": {
+            "Width": "1772",
+            "Height": "2658"
+          }
+        }
+      },
+      "hotspots": []
+    },
+    {
+      "id": "page-02",
+      "title": "Page 02",
+      "source": "SLT.02.pdf",
+      "dzi": "tiles/v3/page-02.dzi",
+      "thumb": "tiles/v3/thumbs/page-02.jpg",
+      "width": 1772,
+      "height": 2658,
+      "tileSource": {
+        "Image": {
+          "xmlns": "http://schemas.microsoft.com/deepzoom/2008",
+          "Url": "tiles/v3/page-02_files/",
+          "Format": "jpg",
+          "Overlap": "1",
+          "TileSize": "254",
+          "Size": {
+            "Width": "1772",
+            "Height": "2658"
+          }
+        }
+      },
+      "hotspots": []
+    },
+    {
+      "id": "page-03",
+      "title": "Page 03",
+      "source": "SLT-MAP.03.pdf",
+      "dzi": "tiles/v3/page-03.dzi",
+      "thumb": "tiles/v3/thumbs/page-03.jpg",
+      "width": 5133,
+      "height": 5103,
+      "tileSource": {
+        "Image": {
+          "xmlns": "http://schemas.microsoft.com/deepzoom/2008",
+          "Url": "tiles/v3/page-03_files/",
+          "Format": "jpg",
+          "Overlap": "1",
+          "TileSize": "254",
+          "Size": {
+            "Width": "5133",
+            "Height": "5103"
+          }
+        }
+      },
+      "hotspots": []
+    },
+    {
+      "id": "page-04",
+      "title": "Page 04",
+      "source": "SLT.04.pdf",
+      "dzi": "tiles/v3/page-04.dzi",
+      "thumb": "tiles/v3/thumbs/page-04.jpg",
+      "width": 3454,
+      "height": 2552,
+      "tileSource": {
+        "Image": {
+          "xmlns": "http://schemas.microsoft.com/deepzoom/2008",
+          "Url": "tiles/v3/page-04_files/",
+          "Format": "jpg",
+          "Overlap": "1",
+          "TileSize": "254",
+          "Size": {
+            "Width": "3454",
+            "Height": "2552"
+          }
+        }
+      },
+      "hotspots": []
+    },
+    {
+      "id": "page-05",
+      "title": "Page 05",
+      "source": "SLT.05.pdf",
+      "dzi": "tiles/v3/page-05.dzi",
+      "thumb": "tiles/v3/thumbs/page-05.jpg",
+      "width": 3559,
+      "height": 2658,
+      "tileSource": {
+        "Image": {
+          "xmlns": "http://schemas.microsoft.com/deepzoom/2008",
+          "Url": "tiles/v3/page-05_files/",
+          "Format": "jpg",
+          "Overlap": "1",
+          "TileSize": "254",
+          "Size": {
+            "Width": "3559",
+            "Height": "2658"
+          }
+        }
+      },
+      "hotspots": []
+    },
+    {
+      "id": "page-06",
+      "title": "Page 06",
+      "source": "SLT.06.pdf",
+      "dzi": "tiles/v3/page-06.dzi",
+      "thumb": "tiles/v3/thumbs/page-06.jpg",
+      "width": 3443,
+      "height": 2552,
+      "tileSource": {
+        "Image": {
+          "xmlns": "http://schemas.microsoft.com/deepzoom/2008",
+          "Url": "tiles/v3/page-06_files/",
+          "Format": "jpg",
+          "Overlap": "1",
+          "TileSize": "254",
+          "Size": {
+            "Width": "3443",
+            "Height": "2552"
+          }
+        }
+      },
+      "hotspots": []
+    },
+    {
+      "id": "page-07",
+      "title": "Page 07",
+      "source": "SLT.07.pdf",
+      "dzi": "tiles/v3/page-07.dzi",
+      "thumb": "tiles/v3/thumbs/page-07.jpg",
+      "width": 3560,
+      "height": 2658,
+      "tileSource": {
+        "Image": {
+          "xmlns": "http://schemas.microsoft.com/deepzoom/2008",
+          "Url": "tiles/v3/page-07_files/",
+          "Format": "jpg",
+          "Overlap": "1",
+          "TileSize": "254",
+          "Size": {
+            "Width": "3560",
+            "Height": "2658"
+          }
+        }
+      },
+      "hotspots": []
+    }
+  ]
+}
